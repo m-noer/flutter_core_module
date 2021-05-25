@@ -12,7 +12,7 @@ class HttpClient {
 
   Dio _getDio() {
     BaseOptions options = new BaseOptions(
-      baseUrl: "https://reqres.in/api/",
+      baseUrl: "https://api.staging.cahayafortunasejati.com",
       connectTimeout: 50000,
       receiveTimeout: 30000,
     );
